@@ -1,0 +1,32 @@
+.formacao {
+  align-items: center;
+  background: #eaf2fd;
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4.4% 0;
+  width: 100%;
+}
+
+.formacao__item_bloco {
+  align-items: center;
+  background: #ffffff;
+  display: flex;
+  height: 286px;
+  justify-content: center;
+  width: 368px;
+}
+
+.formacao__img_iesb {
+  height: 230px;
+  width: 200px;
+}
+
+.formacao__item_titulo {
+  margin: 2% 0;
+}
+
+.formacao__item_periodo {
+  margin: 5% 0;
+}

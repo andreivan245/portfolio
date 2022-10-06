@@ -1,0 +1,40 @@
+.sobre {
+  background: #eaf2fd;
+  display: flex;
+  flex-direction: column;
+  padding: 4.4% 0;
+}
+
+.sobre__container {
+  margin: 0 4.4%;
+}
+.sobre__titulo {
+  color: #464646;
+  font-size: 32px;
+  line-height: 38px;
+  margin-top: 0;
+}
+
+.sobre__descricao {
+  width: 65%;
+}
+.sobre__descricao_texto {
+  color: #464646;
+  font-size: 16px;
+  line-height: 19px;
+  width: 100%;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sobre__descricao {
+    width: 100%;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 767px) {
+  .sobre__descricao {
+    width: 100%;
+  }
+}

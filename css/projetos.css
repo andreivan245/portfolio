@@ -1,0 +1,148 @@
+.projetos {
+  align-items: center;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+.projetos__conteudo_direita {
+  align-self: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 2em 4.4%;
+}
+
+.projetos__conteudo_esquerda {
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4.4% 2em 0;
+}
+
+.projetos__conteudo_img {
+  border-radius: 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  height: 406px;
+  width: 752px;
+}
+
+.projetos__conteudo_descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 2em;
+}
+
+.projetos__conteudo_descricao_titulo {
+  color: #464646;
+  margin: 0.5em 0;
+}
+
+.projetos__conteudo_descricao_subtitulo {
+  color: #464646;
+  font-size: 16px;
+  margin: 0.2em 0;
+}
+
+.projetos__conteudo_descricao_botoes {
+  padding: 2em 0;
+}
+
+.projetos__conteudo_botao_repositorio {
+  background: #f5f5f5;
+  border: solid #2a7ae4 1px;
+  color: #2a7ae4;
+  height: 51px;
+  width: 105px;
+}
+
+.projetos__conteudo_botao_demo {
+  background: #2a7ae4;
+  border: solid #2a7ae4 1px;
+  color: #ffffff;
+  font-size: 16px;
+  height: 51px;
+  width: 105px;
+}
+
+div > button > a {
+  text-decoration-line: none;
+}
+
+.projetos__conteudo_botao_repositorio > a {
+  color: #2a7ae4;
+}
+
+.projetos__conteudo_botao_demo > a {
+  color: #ffffff;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .projetos {
+    align-items: center;
+    justify-content: center;
+  }
+  .projetos__conteudo {
+    flex-direction: column;
+    
+  }
+
+  .projetos__conteudo_img {
+    justify-content: center;
+    height: 320px;
+    width: 704px;
+  }
+
+  .projetos__conteudo_descricao {
+    margin: 0;
+  }
+
+  .projetos__conteudo_direita,.projetos__conteudo_esquerda {
+    align-self: center;
+    flex-direction: column;
+    padding: 4.4% 1em;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 767px) {
+  .projetos__conteudo_direita,.projetos__conteudo_esquerda {
+    align-self: center;
+    flex-direction: column;
+    padding: 4.4% 1em;
+  }
+
+  .projetos__conteudo_img {
+    justify-content: center;
+    height: 214px;
+    margin: 0 auto;
+    width: 356px;
+  }
+
+  .projetos__conteudo_descricao {
+    margin: 0;
+  }
+
+  .projetos__conteudo_descricao_titulo {
+    font-size: 16px;
+  }
+
+  .projetos__conteudo_descricao_subtitulo {
+    font-size: 14px;
+  }
+
+  .projetos__conteudo_descricao_botoes {
+    padding: 0.8em 0;
+  }
+
+  .projetos__conteudo_botao_repositorio,
+  .projetos__conteudo_botao_demo {
+    height: 40px;
+    width: 96px;
+  }
+
+  .projetos__conteudo_botao_repositorio > a,
+  .projetos__conteudo_botao_demo > a {
+    font-size: 14px;
+  }
+}
