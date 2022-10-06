@@ -108,8 +108,9 @@ div > button > a {
 @media screen and (max-width: 767px) {
   .projetos__conteudo_direita,.projetos__conteudo_esquerda {
     align-self: center;
+    
     flex-direction: column;
-    padding: 4.4% 1em;
+    padding: 3.4% 1em;
   }
 
   .projetos__conteudo_img {
@@ -120,6 +121,7 @@ div > button > a {
   }
 
   .projetos__conteudo_descricao {
+    align-items:  center;
     margin: 0;
   }
 
@@ -129,6 +131,7 @@ div > button > a {
 
   .projetos__conteudo_descricao_subtitulo {
     font-size: 14px;
+    
   }
 
   .projetos__conteudo_descricao_botoes {
