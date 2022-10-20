@@ -3,4 +3,6 @@
 ## Linguagens usadas
 - HTML
 - CSS
-- JavaScript
+
+## Objetivo
+O objetivo desse portfólio é listagem simples de meus projetos utlizando apenas HTML e CSS.
